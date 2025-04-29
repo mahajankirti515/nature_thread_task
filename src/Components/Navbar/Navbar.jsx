@@ -28,6 +28,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
+        <hr/>
         <NavLink to="/login" className="nav-link">Login / Register</NavLink>
         <NavLink to="/cart" className="nav-link">0 / ₹0.00</NavLink>
       </div>
