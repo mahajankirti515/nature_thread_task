@@ -1,0 +1,29 @@
+.bottomwear-banner {
+  width: 95%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.banner-img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Left Button */
+.read-more-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 5; 
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
