@@ -6,6 +6,10 @@ import BottomWearBanner from '../Components/BottomWearBanner/BottomWearBanner'
 import PersonalCare from '../Components/PersonalCare/PersonalCare'
 import GentlemenSlides from '../Components/gentlemenSlides/GentlemenSlides'
 import WithInNatureBanner from '../Components/BottomWearBanner/WithInNatureBanner'
+import NewsletterSection from '../Components/NewsletterForm/NewsletterSection'
+import FeaturesSection from '../Components/FeaturesSection/FeaturesSection'
+import NewArticlesSection from '../Components/NewArticlesSection/NewArticlesSection'
+
 
 const Home = () => {
   return (
@@ -17,6 +21,9 @@ const Home = () => {
         <BottomWearBanner />
         <PersonalCare />
         <WithInNatureBanner />
+        <NewsletterSection />
+        <FeaturesSection />
+        <NewArticlesSection />
     </div>
   )
 }
