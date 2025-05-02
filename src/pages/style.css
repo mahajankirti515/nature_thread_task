@@ -1,0 +1,105 @@
+/* src/pages/Contact.css */
+
+.contact-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .contact-info-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 80px; */
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-width: 250px;
+  }
+  
+  .contact-box img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-box p {
+    font-size: 15px;
+    color: #222;
+  }
+  
+  .contact-box p strong {
+    font-weight: 600;
+    color: #000;
+  }
+  
+  /* <---------------------------------> */
+  /* About css */
+
+  .about-page {
+    width: 100%;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 100px auto;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+  }
+  
+  .about-hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .store-intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .store-image {
+    flex: 1 1 300px;
+  }
+  
+  .store-image img {
+    width: 100%;
+    max-width: 500px;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .store-text {
+    flex: 2 1 400px;
+  }
+  
+  .store-text h2 {
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 16px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .store-text p {
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #444;
+  }
+  
