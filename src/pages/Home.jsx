@@ -9,6 +9,7 @@ import WithInNatureBanner from '../Components/BottomWearBanner/WithInNatureBanne
 import NewsletterSection from '../Components/NewsletterForm/NewsletterSection'
 import FeaturesSection from '../Components/FeaturesSection/FeaturesSection'
 import NewArticlesSection from '../Components/NewArticlesSection/NewArticlesSection'
+import Footer from '../Components/Footer/Footer'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
         <NewsletterSection />
         <FeaturesSection />
         <NewArticlesSection />
+        <Footer />
     </div>
   )
 }

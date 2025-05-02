@@ -1,26 +1,29 @@
 import React from 'react';
 import './FeaturesSection.css';
-import { FaDesktop } from 'react-icons/fa';
+import shoping from '../../assets/free_shoping.svg'
+import support_team from '../../assets/support_team.svg'
+import payment from '../../assets/payment.svg'
+import right from '../../assets/safe_or_secure.svg'
 
 const FeaturesSection = () => {
   const features = [
     {
-      icon: '/images/free-shipping.png',
+      icon: shoping,
       title: 'Free Shipping',
       description: '“Experience complimentary shipping on every order with a minimum purchase of just 300. Start shopping now to seize the savings!”'
     },
     {
-      icon: '/images/support-team.png',
+      icon: support_team,
       title: 'Support Team',
       description: '“Our dedicated support team is here for you. Reach out anytime for prompt assistance and personalized solutions.”'
     },
     {
-      icon: '/images/online-payments.png',
+      icon: payment,
       title: 'Online Payments',
       description: '“Seamless online payment for your convenience and peace of mind. Trust in our secure payment gateway for hassle-free transactions.”'
     },
     {
-      icon: '/images/safe-secure.png',
+      icon: right,
       title: 'Safe & Secure',
       description: '“Rest assured, your safety and security are our top priorities. With state-of-the-art encryption.”'
     }

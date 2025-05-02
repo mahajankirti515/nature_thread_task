@@ -10,7 +10,7 @@ export const articles = [
     title:
       "The Ultimate Guide to Multani Mitti Powder: Benefits, Uses, and Tips",
     excerpt: "Introduction Multan...",
-    author: "admin",
+    author: "Admin",
     comments: 0,
     image: blog1,
     link: "/articles/multani-mitti-guide",
@@ -20,7 +20,7 @@ export const articles = [
     category: "Women",
     title: "The Journey of Cotton Kurtis: From Field to Fashion",
     excerpt: "Introduction Cotton...",
-    author: "admin",
+    author: "Admin",
     comments: 0,
     image: blog2,
     link: "/articles/cotton-kurtis-journey",
@@ -32,7 +32,7 @@ export const articles = [
       "Discover the Perfect Camisole in 30 Stunning Colors for Every Wardrobe",
     excerpt:
       "Are you tired of the same old wardrobe staples? Elevate your style with o...",
-    author: "admin",
+    author: "Admin",
     comments: 0,
     image: blog3,
     link: "/articles/perfect-camisole",
@@ -44,7 +44,7 @@ export const articles = [
       "The Ultimate Guide to Men’s Cotton Kurtas: Style, Comfort, and Versatility",
     excerpt:
       "Welcome to our comprehensive guide on men's cotton kurtas! Whether you're...",
-    author: "admin",
+    author: "Admin",
     comments: 0,
     image: blog4,
     link: "/articles/mens-cotton-kurtas",
