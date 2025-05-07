@@ -31,12 +31,6 @@ const NewArticlesSection = () => {
               </div>
             </div>
 
-            {/* <div className="dots">
-                <span className="dot active"></span>
-                <span className="dot"></span>
-                <span className="dot"></span>
-              </div> */}
-
             <div className="tag">{item.category}</div>
             <h4 className="title">{item.title}</h4>
             <div className="icons">
